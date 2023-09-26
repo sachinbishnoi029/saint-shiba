@@ -1,5 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+:root {
+    /* /* bg-color / */
+    --bs-blue: #8B35E2;
+    --bs-orange: #fd7e14;
+    --white: #fff;
+    --gradient-orange: linear-gradient(90deg, #FFA800 0%, #F06500 100%);
+    --gradient-c: linear-gradient(136deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.00) 100%);
+    --black: #0C0B0B;
+    --red: red;
 
+    /*font-size*/
+    --fs-9: 9px;
+    --fs-11: 11px;
+    --fs-36: 36px;
+    --fs-18: 18px;
+    --fs-96: 96px;
+    --fs-22: 22px;
+    --fs-48: 48px;
+    --fs-28: 28px;
+    --fs-14: 14px;
+    --fs-76: 76px;
+    
+    --fs-58: 58px;
+    
+    --fw-400: 400px;
+    --fw-600: 600;
+    --fw-700: 700;
+    --fw-300: 300;
+    
+    --ff-p: 'Poppins', sans-serif;
+}
 
 .bg-moon {
     background-image: url(/assets/images/Group\ 156Full-moon.png);
@@ -17,6 +47,11 @@
 
 .bg-dark {
     background: #1D1A1A !important;
+}
+
+.image1 {
+    max-width: 500px;
+    max-height: 861px;
 }
 
 .ellipse-left {
@@ -37,7 +72,10 @@ th {
     padding-top: 12px !important;
     padding-bottom: 20px !important;
 }
-
+.image2{
+    max-width: 551px;
+    max-height: 722px;
+}
 .translate-middle-y {
     transform: translateY(-50px) !important;
 }
@@ -168,9 +206,11 @@ th {
     border-radius: 50%;
     background-color: #FFA800;
 }
-.top{
+
+.top {
     top: -60px;
 }
+
 .timeline {
     position: relative;
     max-width: 1200px;
@@ -266,10 +306,11 @@ th {
     z-index: -1;
 }
 
-.container-buy{
+.container-buy {
     max-width: 1620px;
     margin-left: auto;
 }
+
 .ellipse-right-3 {
     position: absolute;
     top: 15%;
@@ -395,31 +436,4 @@ th {
         width: 51px;
         height: 51px;
     }
-}
-
-:root {
-    /* /* bg-color / */
-    --bs-blue: #8B35E2;
-    --bs-orange: #fd7e14;
-    --white: #fff;
-    --gradient-orange: linear-gradient(90deg, #FFA800 0%, #F06500 100%);
-    --gradient-c: linear-gradient(136deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.00) 100%);
-    --black: #0C0B0B;
-    --red: red;
-    --fs-36: 36px;
-    --fs-18: 18px;
-    --fs-96: 96px;
-    --fs-22: 22px;
-    --fs-48: 48px;
-    --fs-28: 28px;
-    --fs-14: 14px;
-    --fs-76: 76px;
-    --fs-11: 11px;
-    --fs-58: 58px;
-    --fs-9: 9px;
-    --fw-400: 400px;
-    --fw-600: 600;
-    --fw-700: 700;
-    --fw-300: 300;
-    --ff-p: 'Poppins', sans-serif;
 }
